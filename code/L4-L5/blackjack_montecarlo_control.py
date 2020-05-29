@@ -21,7 +21,7 @@ dealer = Dealer(A = A, display = display)
 # 创建一个场景
 arena = Arena(A = A, display=display)
 
-arena.play_games(dealer = dealer, player = player,num = 20000, show_statistic = True)
+arena.play_games(dealer = dealer, player = player,num = 200000, show_statistic = True)
 #print(player.Q)
 #print(player.A)
   
